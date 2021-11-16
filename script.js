@@ -3,7 +3,11 @@ $(function(){
     auto: true,
     controls: false,
     pager: false,
-    mode: 'fade'
+    mode: 'fade',
+    speed: 2000,
+    touchEnabled: false,
+    randomStart: true,
+    pause:4500
   }
   );
 
