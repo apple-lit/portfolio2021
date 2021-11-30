@@ -11,7 +11,7 @@ $(function(){
   }
   );
 
-  $('#toggle').on('click', function() {
+  $('#toggle , .nav-button').on('click', function() {
       $('body').toggleClass('is-open');
     });
 });

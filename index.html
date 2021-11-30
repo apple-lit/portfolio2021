@@ -1,62 +1,123 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<script src="script.js"></script>
-  <title>Rintaro Kudo Portfolio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/rellax.min.js"></script>
+    <title>Rintaro Kudo Portfolio</title>
+  </head>
+  <body>
 
-<div id="toggle">
-    <div id="toggle-box">
+    <div id="toggle">
+      <div id="toggle-box">
         <span></span>
         <span></span>
+      </div>
     </div>
-</div>
 
-<div id="nav-content">
-    <nav>
+    <div id="nav-content">
+      <nav>
         <ul>
-            <li><a href="#">Top</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Works</a></li>
-            <li class="sns-icons">
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
-            <div></div><a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <li><a class="nav-button" href="index.html">Top</a></li>
+          <li><a class="nav-button" href="#about">About</a></li>
+          <li><a class="nav-button" href="#skills">Skills</a></li>
+          <li><a class="nav-button" href="#">Works</a></li>
+          <li class="sns-icons">
+            <a class="nav-button" href="https://www.instagram.com/rintand_c/?hl=ja" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/rintaro.kudo.58/" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a class="nav-button" href="mailto:rintarokudowork@gmail.com" target="_blank">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+
           </li>
         </ul>
-    </nav>
-</div>
+      </nav>
+    </div>
 
-<section class="main-visual">
-<div class="sidemenu"><span></span></div>
-<div class="slider">
-<div class="slider1 slide-img"></div>
-<div class="slider2 slide-img"></div>
-<div class="slider3 slide-img"></div>
-<div class="slider4 slide-img"></div>
-</div>
-<div class="title-text">
-<span class="title">PORTFOLIO</span><br>
-<span class="subtitle">RINTARO KUDO portfolio 2021</span>
-</div>
-</section>
+    <section class="main-visual">
+      <div class="sidemenu"><span></span></div>
+      <div class="slider">
+        <div class="slider1 slide-img"></div>
+        <div class="slider2 slide-img"></div>
+        <div class="slider3 slide-img"></div>
+        <div class="slider4 slide-img"></div>
+      </div>
+      <div class="title-text">
+        <span class="title">PORTFOLIO</span><br>
+        <span class="subtitle">RINTARO KUDO portfolio 2021</span>
+      </div>
+    </section>
 
-<div class="about" id="about">
+    <div class="about" id="about">
+      <span class="section-title about-title">
+        ABOUT
+      </span>
+      <div class="about-content-wrapper">
+        <div class="about-photo">
+          <div class="myphoto-container">
+            <img class="myphoto" src="img/myphoto.png" alt="">
+            <img class="about_blob blob " data-rellax-percentage="1.5" data-rellax-speed="-1" src="img/about_blob.png" alt="">
+          </div>
+        </div>
+        <div class="about-text">
+          <div class="name-section">
+            <h1>Rintaro Kudo</h1>
+            <div class="name-sub">
+              <span>工藤凜太郎</span>
+              <span>1998.08.20</span>
+            </div>
+          </div>
+          <p>
+            1998年8月20日神奈川県横浜市生まれ。<br>
+小学校３年生の時に父親の仕事の関係でアメリカのテキサス州に移住。2年３ヶ月後に日本に帰国し、広尾学園中学校インターナショナルコース入学。同高校卒業後、慶應義塾大学環境情報学部入学。2021年3月に卒業後同大学院へ入学。航空気象学専攻。<br><br>
 
-</div>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+2012年に学校にたまたま来ていたチラシをきっかけにLife is Tech!でITでのものづくりを学び始める。翌年、そこで出会った当時Photoshop世界一位の大学生に憧れ、デザインに興味を持つ。<br><br>
+
+大学へ入学後、Life is Tech!の大学生スタッフとして多くの中高生へWebデザインやIllustrator、PhotoshopをはじめとするITを使ったものづくりを教えている。<br><br>
+
+現在では新しく入ってくる大学生スタッフの育成におけるWebデザイン、デザイナー講師を務めている。<br><br>
+
+Life is Tech!以外でもデザイナーや出張カメラマンとして活動している。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      <span class="section-title">
+        SKILLS
+      </span>
+    </div>
+
+    <div class="works" id="works">
+      <span class="section-title">
+        WORKS
+      </span>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+  var rellax = new Rellax('.blob', {
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: true
+  });
+</script>
+  </body>
 </html>
