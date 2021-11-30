@@ -315,3 +315,47 @@
   line-height: 300%;
   z-index: 99;
 }
+
+.skills {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.skills-title {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+
+
+.works {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.section-title-works {
+  font-size: 1.8rem;
+  color: #E6A2A4;
+  font-weight: 500;
+  letter-spacing: 5px;
+  /* writing-mode: vertical-rl; */
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.section-title-works::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150%;
+  height: 3px;
+  background-color: #E6A2A4;
+  z-index: 1;
+}
+
+.works-title {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
