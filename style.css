@@ -359,3 +359,47 @@
   left: 5%;
   top: 10%;
 }
+
+.skillslist-wrapper {
+  /* position: absolute; */
+  /* right: 0; */
+  margin: 0 0 0 auto;
+  width: 80%;
+  /* background-color: red; */
+}
+
+.skillslist {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skillbox {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 20%;
+  margin-top: 20px;
+}
+
+.skillbox p {
+  padding: 10px;
+}
+
+.skillbox img {
+  height: 33%;
+}
+
+.career-wrapper {
+  /* display: block; */
+  margin-top: 100px;
+  width: 100%;
+  height: 500px;
+  max-height: 50%;
+  background-image: url(img/career.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* position: absolute;
+  bottom: 0; */
+}
